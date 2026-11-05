@@ -1,0 +1,19 @@
+.DS_Store
+.claude/settings.local.json
+
+# Program data: quotes, prices, supplier contacts, budgets, emails.
+# Kept out of git so a push never publishes them.
+# To version your data, use a separate private repo.
+program/
+sourcing/
+prototype/
+manufacturing/
+research/
+deliverables/
+inbox/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
